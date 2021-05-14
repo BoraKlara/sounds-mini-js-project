@@ -4,4 +4,37 @@
 
 body {
   background-image: linear-gradient(to right, darkgreen, lightgreen);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  min-height: 100vh;
+  position: relative;
+}
+
+div {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+}
+
+p {
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  position: absolute;
+  top: 80%;
+}
+
+.btn {
+  background-color: rgb(63, 54, 54);
+  color: white;
+  margin: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 5px 7px 25px black;
 }
